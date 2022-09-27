@@ -2,40 +2,43 @@
 
 <html>
     <head>
-        <title>Eastern Bearded Lizard</title>
-        <link rel="stylesheet" href="./resources/css/index.css">
+        <title> Bearded Lizard</title>
+        <link rel="stylesheet" href="css/Main.css">
         <meta name"viewport" content="width=device-width, initial-scale-1">
     </head>
-    <body>
+    <body id="secondPage">
+        <!-- nav section --> 
+        <nav class="topnav">
+            <ul>
+                <li><a href="index.html">home</a></li>
+                <li><a href="secondPage.html">secondPage</a></li>
+                <li><a href="ThirdPage.html">ThirdPage</a></li>
+                <li><a href="fourthPage.html">fourthPage</a></li>
+                <li><a href="fifthPage.html">fifthPage</a></li>
+            </ul>
+        </nav>
+
         <!-- Banner section  -->
         <div class="banner">
-            <h2>Eastern Bearded Lizards banner</h2>
-            <img src="https://i.pinimg.com/736x/f8/27/02/f8270292898470e2858f221de42e1bad.jpg" alt="this is a bearded lizard">
+            <class><h2>Eastern Bearded Lizards banner</h2>
+            </class>
+            <img src="https://i.pinimg.com/736x/f8/27/02/f8270292898470e2858f221de42e1bad.jpg" alt="this is a bearded lizard" class="center">
             
-
-            <nav class="topnav">
-                <ul>
-                    <li><a href="index.html">home</a></li>
-                    <li><a href="secondPage.html">secondPage</a></li>
-                    <li><a href="ThirdPage.html">ThirdPage</a></li>
-                    <li><a href="fourthPage.html">fourthPage</a></li>
-                    <li><a href="fifthPage.html">fifthPage</a></li>
-                </ul>
-            </nav>
-
         </div>
 
         <!-- Bearded Lizard section -->
         <div>
-            <span>Eastern Bearded Lizard </span>
+            <center><span>Eastern Bearded Lizard </span>
             <p> THE EASTERN BEARDED DRAGON (Pogona barbata), also known as common bearded dragon or
                 simply bearded lizard, is an agamid lizard found in wooded parts of Australlia. 
             </p>
+            </center>
         </div>
+        <center>
         <form>
              <label>
                  First name
-                 <input type="text">
+                 <input type="text"><br>
              </label>
              <label>
                  Last name
@@ -43,7 +46,7 @@
              </label>
              <label for="names">choose a name:
                  <select name="names" id="names">
-                 </select>
+                 </select><br>
              </label>
              <label>
                  Email
@@ -51,15 +54,18 @@
              </label> 
              <labelfor="email">choose email:
                  <select email="email" id="email">
-                 </select>
-             </label>
+                 </select><br>
+             </label> 
+             <label for"tel">telephone:
+                <input type="tel" id="tel"><br>
+                </label>
+
              <label>
                  <input type="submit" value="click me to submit">
              </label>
-             <label for"tel">telephone:
-             <input type="tel" id="tel">
-             </label>
+             
         </form>
+        </center>
         <footer>
             &copy; Kenneth Randolph All rights reserved.
         </footer>

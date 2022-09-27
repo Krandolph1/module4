@@ -1,0 +1,13 @@
+#mainBody {
+    background-color:beige;
+    }
+#secondPage {
+    background-color: lightskyblue;  
+} 
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
