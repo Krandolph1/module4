@@ -3,6 +3,15 @@
     }
 #secondPage {
     background-color: lightskyblue;  
+}
+#ThirdPage {
+    background-color:   lightskyblue
+}
+#fourthPage {
+    background-color: bisque;
+}
+#fifthPage {
+    background-color: rgb(128, 94, 94);
 } 
 
 .center {
